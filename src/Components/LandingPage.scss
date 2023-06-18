@@ -1,0 +1,43 @@
+.landing {
+  background-color: #161616;
+  height: 40vmax;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-landing {
+  font-size: 5em;
+  margin: 20px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.info-weather {
+  line-height: 4vmax;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    > p{
+      >span {
+        color: #005096;
+      }
+    }
+    >img {
+      width: 120px;
+      height: 100px;
+      padding-left: 15%;
+    }
+  }
+}

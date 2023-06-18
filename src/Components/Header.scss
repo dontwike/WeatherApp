@@ -1,0 +1,17 @@
+.header {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+    font-size: 2.4vmax;
+    padding-top: 1.5%;
+
+    > span {
+        padding-left: 10px;
+    }
+}
